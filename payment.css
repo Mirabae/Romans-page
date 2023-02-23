@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'roboto';
+}
+
+.container .flex{
+    display: flex;
+}
+
+.container .flex .flex1{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    padding: 7rem 5rem;
+}
+
+.container .flex .flex1 .texts .title{
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.container .flex .flex1 .texts .card-number{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.container .flex .flex1 .texts .card-number-inner{
+    font-weight: 400;
+    font-size: 14px;
+    color: #d5d5d5;
+    margin-bottom: 10px;
+}
+
+.container .flex .flex1 .texts .input input{
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #f4f7f9;
+    border-radius: 12px;
+    width: 322px;
+    height: 52px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.container .flex .flex1 .input-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .flex .flex1 .input-flex input{
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #f4f7f9;
+    border-radius: 12px;
+    width: 145px;
+    height: 52px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.container .flex .flex1 .check{
+    display: flex;
+    margin-top: 0.6rem;
+}
+
+.container .flex .flex1 .check #checker{
+    outline: 3px solid black;
+}
+
+.container .flex .flex1 .check .check-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: #8c8c8c;
+    margin-left: 1rem;
+}
+
+.container .flex .flex1 .image img{
+    /* margin-right: -12rem; */
+    position: absolute;
+    top: 7rem;
+    right: 31rem;
+    /* width: 40%; */
+}
+
+.container .flex .flex2{
+    background-color: #f4f7f9;
+    width: 60%;
+    height: 100vh;
+    padding: 0rem 0rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .flex .flex2 .title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    margin-top: 160px;
+    margin-bottom: 6rem;
+
+}
+
+.container .flex .flex2 .flex2-flex{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    margin-left: 7rem;
+}
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner .inner-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+}
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner-2 .inner-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+}
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner img{
+    margin-right: 1rem;
+}
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner-2 img{
+    margin-right: 1rem;
+}
+
+.container .flex .flex2 .info{
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.container .flex .flex2 .info .info-text{
+    margin: 0.3rem 0rem 0rem 0.7rem;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.container .flex .flex2 .links{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.container .flex .flex2 .links .btn-container{
+    display: flex;
+}
+
+.container .flex .flex2 .links .btn-container .btn{
+    text-decoration: none;
+    background-color: black;
+    padding: 1rem 0rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2rem;
+}
+
+.container .flex .flex2 .links .link a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 5rem;
+
+}
+
+.container .flex .flex2 .links .link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-top: 1rem;
+    font-weight: 500;
+
+}

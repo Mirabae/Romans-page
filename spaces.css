@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+    font-family: 'roboto';
+    /* width: 100%; */
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    height: 100vh;
+}
+
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: rgb(196, 196, 196); */
+    background-color: white;
+    border-radius: 0 10px 30px rgba(0, 0, 0, 0.288);
+    border: none;
+    opacity: 1;
+    padding: 20px 45px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container .nav-inner1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container .logo{
+    margin-right: 100px;
+}
+
+.nav-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.nav-container ul li{
+    list-style: none;
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 40px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-container ul li a:hover{
+    text-decoration: none;
+    color: blue;
+    padding: 0px 40px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.search a{
+    text-decoration: none;
+    margin-left: 4rem;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.search a:hover{
+    text-decoration: none;
+    margin-left: 4rem;
+    font-weight: 700;
+    font-size: 18px;
+    color: blue;
+}
+
+.search li {
+    list-style: none;
+}
+
+.search .profile{
+    margin-left: 4rem;
+    margin-top: -0.5rem;
+}
+
+.banner-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.925),rgb(0, 0, 0),rgba(0, 0, 0, 0.733)), url(./Image/Mask\ group.png);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    padding: 10rem 0rem;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-container .banner-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.banner-container .banner-text .banner-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5rem;
+    font-family: "roboto";
+}
+
+.banner-container .banner-text .banner-titleb{
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    font-family: "roboto";
+    margin-top: 5rem;
+}
+
+.spaces-nav{
+    padding: 3rem 15rem;
+}
+
+.spaces-nav .btn-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.151);
+}
+
+.spaces-nav .btn-container .btns{
+    display: flex;
+    justify-content: space-between;
+}
+.spaces-nav .btn-container .btns .btn1{
+    background: linear-gradient(180deg, #8CBDFE 0%, #4192FB 100%);
+    text-decoration: none;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 1.5rem;
+    padding-top: 0.7rem;
+    border-radius: 1.5rem;
+}
+
+.spaces-nav .btn-container .btns .btn2{
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.spaces-nav .btn-container .btns .btn3{
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.spaces-nav .btn-container .btns .btn4{
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.section3-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem 3rem;
+}
+
+.section3-cards .card1{
+    background-color: #fff;
+    width: 372px;
+    padding-bottom: 3rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.151);
+    margin: 2rem 0rem;
+}
+
+.section3-cards .card1 img:hover{
+    scale: 103%;
+}
+
+.section3-cards .card1 .card-texts{
+    padding: 2rem;
+}
+
+.section3-cards .card1 .card-texts .title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section3-cards .card1 .card-texts .inner{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(185, 185, 185);
+    margin: 0.5rem 0rem;
+}
+
+.section3-cards .card1 .card-btn-cont{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.section3-cards .card1 .card-btn-cont .btn{
+   background-color: black;
+   padding: 1rem 7rem;
+   border-radius: 3rem;
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 15px;
+   color: rgb(230, 229, 229);
+}
+
+.section3-cards .card1 .learn{
+    margin-bottom: 3rem;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(126, 126, 126) ;
+    margin-left: 6rem;
+}
+
+.section3 .last-btn{
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+ 
+}
+
+.section3 .last-btn .btn{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    background: linear-gradient(180deg, #8CBDFE 0%, #4192FB 100%);
+}
+
+.section4{
+    margin-top: 6rem;
+}
+
+.section5{
+    background-color: black;
+    padding: 5rem 3rem;
+    color: white;
+}
+
+.section5 .flex-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section5 .flex-cont .one .icons{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 2rem 0rem;
+}
+
+.section5 .flex-cont .one .icons a{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.section5 .flex-cont .two .title{
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 2.8rem;
+   color: rgb(218, 218, 218);
+}
+
+.section5 .flex-cont .two a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    color: rgb(206, 205, 205);
+}
+
+.section7 .flex-cont .two a:hover{
+    text-decoration:underline;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+    color: rgb(0, 119, 255);
+}
+
+footer{
+    background-color: black;
+    padding: 1rem 3rem;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(87, 86, 86);
+}

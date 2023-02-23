@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
+body{
+    background-color: white;
+    height: 100vh;
+    font-family: 'roboto';
+}
+
+.container{
+    background-color: white;
+    padding: 3rem;
+}
+
+.container .flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .flex-container .text .title{
+    font-weight: 700;
+    font-size: 38px;
+    color: black;
+    margin-top: 130px;
+    margin-bottom: 5rem;
+}
+
+.container .flex-container .text .text-inner{
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+    line-height: 2;
+}
+
+.container .flex-container .image .price{
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 4rem;
+}
+
+.container .flex-container .image .price span{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(233, 229, 229);
+    margin-top: 100px;
+    margin-bottom: 4rem;
+}
+
+.container .flex-container .image .flex2-flex{
+    display: flex;
+}
+
+.container .flex-container .image .flex2-flex .flex-a .flex-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+}
+
+.container .flex-container .image .flex2-flex .flex-a .flex-inner-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container .flex-container .image .flex2-flex .flex-a .flex-inner .inner-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(245, 242, 242);
+    margin-left: 0.5rem;
+}
+
+.container .flex-container .image .flex2-flex .flex-a .flex-inner-2 .inner-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(248, 247, 247);
+    margin-left: 0.5rem;
+}
+
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner img{
+    margin-right: 1rem;
+}
+
+.container .flex .flex2 .flex2-flex .flex-a .flex-inner-2 img{
+    margin-right: 1rem;
+}
+
+.container .flex-container .image .btn-cont{
+    margin-top: 3rem;
+}
+
+.container .flex-container .image .btn-cont .btn{
+    background: linear-gradient(90deg, #00AEF9 0%, #518BFB 61.82%);
+    border-radius: 3rem;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+}
+
+.container .flex-container .image{
+    width: 50%;
+    background-color: #2f70ed;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.205);
+    position: relative;
+}

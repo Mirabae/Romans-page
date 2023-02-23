@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+    font-family: "roboto";
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+/* .container{
+
+} */
+.container .container-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container .container-flex .flex1{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.548)), url(./Image/Mask\ group.png); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: whitesmoke;
+    background-image: url(./Image/three\ 1\ \(2\).png);
+    width: 100%;
+    padding: 0rem 2rem;
+}
+
+.container .container-flex .flex1 .text-flex .text{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 187px;
+    text-align: center;
+    margin-top: 12rem;
+    -webkit-text-stroke: 3px white;
+    color: transparent;
+    stroke-width: 4rem;
+}
+
+.container .container-flex .flex1 .text-flex .text2{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-top: -2.5rem;
+    margin-left: 34rem;
+}
+
+.container .container-flex .flex2{
+    padding: 2rem 4rem;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    justify-content: center;
+}
+
+.container .container-flex .flex2 .heading{
+    display: flex;
+    margin-left: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container .container-flex .flex2 .heading img{
+    margin-left: 1rem;
+}
+
+.container .container-flex .flex2 .heading .heading-title{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .container-flex .flex2 .inputs .input1{
+    /* display: flex; */
+    margin-bottom: 2rem;
+}
+
+.container .container-flex .flex2 .inputs input{
+    border: none;
+    outline: none;
+    background-color: #EEEEEE;
+    width: 276px;
+    height: 50px;
+    border-radius: 3rem;
+    padding-left: 3rem;
+}
+
+.container .container-flex .flex2 .inputs .icon1{
+    position: absolute;
+    margin-top: 0.7rem;
+    right: 24rem;
+}
+
+.container .container-flex .flex2 .inputs .icon2{
+    position: absolute;
+    margin-top: 0.8rem;
+    right: 24rem;
+}
+
+.container .container-flex .flex2 .inputs .icon3{
+    position: absolute;
+    margin-top: 1rem;
+    right: 10rem;
+}
+
+
+.container .container-flex .flex2 .checkbox{
+    display: flex;
+    margin-left: 5.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.container .container-flex .flex2 .checkbox #checker{
+    outline: 3px solid black;
+    border: 3px solid black;
+    margin-right: 1rem;
+}
+
+.container .container-flex .flex2 .checkbox .check-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.container .container-flex .flex2 .btn1{
+    margin: 1.5rem 0rem;
+}
+
+.container .container-flex .flex2 .btn1 .btn1{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 4rem;
+    padding: 1rem 6rem;
+    text-align: center;
+}
+
+.or{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+.container .container-flex .flex2 .btn1 .btn2{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 4rem;
+    padding: 1rem 5.4rem;
+    text-align: center;
+    position: relative;
+}
+
+.container .container-flex .flex2 .btn1 img{
+    position: absolute;
+    right: 13rem;
+}
+
+.container .container-flex .flex2 .last-link{
+    margin-top: 4rem;
+}
+
+.container .container-flex .flex2 .last-link a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+}
